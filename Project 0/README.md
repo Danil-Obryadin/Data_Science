@@ -1,16 +1,24 @@
 # Project 0. Игра: "угадай число"
 
 
-
 ## Оглавление
-[1. Описание проекта]()
-[2. Какой кейс решаем]()
-[3. Краткая информация о данных]()
+[1. Описание проекта](https://github.com/Danil-Obryadin/Data_Science/blob/main/Project%200/README.md#Описание-проекта)
+
+[2. Какой кейс решаем](https://github.com/Danil-Obryadin/Data_Science/blob/main/Project%200/README.md#Какой-кейс-решаем)
+
+[3. Краткая информация о данных](https://github.com/Danil-Obryadin/Data_Science/blob/main/Project%200/README.md#Краткая-информация-о-данных)
+
+[4. Этапы работы над проектом](https://github.com/Danil-Obryadin/Data_Science/blob/main/Project%200/README.md#Этапы-работы-над-проектом)
+
+[5. Результат](https://github.com/Danil-Obryadin/Data_Science/blob/main/Project%200/README.md#Результат)
+
+[6. Выводы](https://github.com/Danil-Obryadin/Data_Science/blob/main/Project%200/README.md#Выводы)
+
 
 ### Описание проекта
 Угадать заданное компьютером число за минимальное число попыток.
 
-:arrow_up:[к оглавлению]()
+:arrow_up:[к оглавлению](https://github.com/Danil-Obryadin/Data_Science/blob/main/Project%200/README.md#Оглавление)
 
 
 ### Какой кейс решаем?
@@ -29,7 +37,31 @@
 - Учимся работать с IDE.
 - Учимся работать с GitHub.
 
+
 ### Краткая информация о данных
 ...
 
-:arrow_up:[к оглавлению]()
+
+:arrow_up:[к оглавлению](https://github.com/Danil-Obryadin/Data_Science/blob/main/Project%200/README.md#Оглавление)
+
+### Этапы работы над проектом
+Реализовал решение задачи несколькими способами:
+- с применением функции для вычисления среднего значения попыток за 1000 повторений;
+- с применеием цикла while (для вычисления среднего значения попыток за 1000 повторений ) на "старте" запуска программы.
+Оформил оба метода решения:
+- [Игра: Угадай число (с применением функций)]()
+- [Игра: Угадай число ( с применением цикла while)]()
+В написании кода использовал только бибилотеку "random".
+
+
+### Результат
+Поставленые задачи выполены. Компьютер находит загаданное число меньше чем за 20 попыток.
+
+:arrow_up:[к оглавлению](https://github.com/Danil-Obryadin/Data_Science/blob/main/Project%200/README.md#Оглавление)
+
+### Выводы
+- оба метода выполняют поставленную задачу.
+- выриант выполнения кода без применения функций оказался быстрее (данное утверждение основано на применении модуля 'time').
+
+:arrow_up:[к оглавлению](https://github.com/Danil-Obryadin/Data_Science/blob/main/Project%200/README.md#Оглавление)
+
