@@ -1,9 +1,9 @@
 import random
 
-#The Game: the computer makes a guess and guesses the number
-start_iter,finish_iter=0,1000 # start/finish of repetitions
+#The Game: "guess the number" (the computer makes a guess and guesses the number)
+start_iter,finish_iter=0,1000 #start/finish of repetitions
 count_dict=[] #list of attempts
-while start_iter<finish_iter: # for restarting process
+while start_iter<finish_iter: #for restarting process
     start_iter+=1
 
     x,y=1,100 #the first/last of random number
