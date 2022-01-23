@@ -1,7 +1,11 @@
 import random
 
-#The Game: "guess the number" (the computer makes a guess and guesses the number)
-def game_number():
+#The Game: the computer makes a guess and guesses the number
+start_iter,finish_iter=0,1000 # start/finish of repetitions
+count_dict=[] #list of attempts
+while start_iter<finish_iter: # for restarting process
+    start_iter+=1
+
     x,y=1,100 #the first/last of random number
     number=random.randint(x,y)
     count=0 #'start' value of total attempts
@@ -16,21 +20,10 @@ def game_number():
             y = guess
         else:
             print(f'Yes! The number is {number}, total attempts - {count}')
+            count_dict.append(count)
             break
-    return count
 
-# the function for finding the average value of attempts
-def average_score():
-    start_iter, finish_iter=0,1000 #start/finish of repetitions
-    count_dict=[] #list of attempts
-    while start_iter<finish_iter: #for restarting process
-        start_iter+=1
-        game_number() #function start
-        result=game_number()
-        count_dict.append(result)
-
-    print('My algorithm guesses the number in an average of',\
+print('My algorithm guesses the number in an average of',\
       round(sum(count_dict)/finish_iter), 'attempts out of',finish_iter, 'repetitions')
 
 
-average_score()
