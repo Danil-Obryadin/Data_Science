@@ -30,7 +30,7 @@ def average_score():
         count_dict.append(result)
 
     print('My algorithm guesses the number in an average of',\
-      round(sum(count_dict)/finish_iter), 'attempts out of',finish_iter, 'repetitions')
+      round(sum(count_dict)/finish_iter),'attempts out of',finish_iter, 'repetitions')
 
 
 average_score()
