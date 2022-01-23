@@ -51,6 +51,7 @@
 Оформил оба метода решения:
 - [Игра: Угадай число (с применением функций)](https://github.com/Danil-Obryadin/Data_Science/blob/main/Project%200/Game.py)
 - [Игра: Угадай число ( с применением цикла while)](https://github.com/Danil-Obryadin/Data_Science/blob/main/Project%200/Game_while.py)
+
 В написании кода использовал только бибилотеку "random".
 
 
