@@ -1,6 +1,6 @@
 import random
 
-#The Game: the computer makes a guess and guesses the number
+#The Game: "guess the number" (the computer makes a guess and guesses the number)
 def game_number():
     x,y=1,100# the first/last of random number
     number=random.randint(x,y)

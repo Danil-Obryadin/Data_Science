@@ -2,4 +2,4 @@
 
 ## Projects
 
-* [Project 0. Game: "guess the number"](https://github.com/Danil-Obryadin/Data_Science/blob/main/Game.py)
+* [Project 0. Игра: "угадай число"](https://github.com/Danil-Obryadin/Data_Science/tree/main/Project%200)
